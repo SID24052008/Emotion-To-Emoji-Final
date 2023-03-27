@@ -53,13 +53,13 @@ function gotResult(error, results){
             document.getElementById("update_emoji").innerHTML= "&#128548;";
         }
 
-        if (results[0].label=="Happy"){
+        if (results[1].label=="Happy"){
             document.getElementById("update_emoji2").innerHTML= "&#128522;";
         }
-        if (results[0].label=="Sad"){
+        if (results[1].label=="Sad"){
             document.getElementById("update_emoji2").innerHTML= "&#128532;";
         }
-        if (results[0].label=="Angry"){
+        if (results[1].label=="Angry"){
             document.getElementById("update_emoji2").innerHTML= "&#128548;";
         }
     }
